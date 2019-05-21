@@ -21,6 +21,8 @@ RUN yum clean all; yum -y update; \
     php-pecl-memcache \
     php-pecl-memcached \
     php-pecl-redis \
+    ext-pcntl \
+    php-process \
     php-zip; \
     yum -y update; \
     yum clean all; \
